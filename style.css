@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, #748ea6,#3a4856); 
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------------Input Section--------------*/
+.new-input{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.new-input__submit{
+    padding: 0 20px;
+    background-color: #008a5b;
+    color: white;
+}
+
+
+/*-------------Tasks Section--------------*/
+.tasks__wrapper{
+    width: 75%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.tasks__wrapper-header{
+    font-weight: 700;
+    color: #002134;
+}
+
+.tasks__list{
+    list-style: none;
+}
+
+.tasks__list-header{
+    font-size: 16px;
+    font-weight: 600;
+    color: #9dadbd;
+}
+
+.tasks__item{
+    background-color: #7bfac3;
+    padding: 1rem 0;
+    border-radius: 5px;
+    align-items: center;
+    opacity: 0;
+}
+
+.tasks__item-name{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.tasks__item-delete i{
+    color: #2f2836;
+}

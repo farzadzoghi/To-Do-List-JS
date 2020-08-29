@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP</title>
+    <!-------------FontAwesome-------------->
+    <script src="https://kit.fontawesome.com/0b29534067.js" crossorigin="anonymous"></script>
+    <!-------------Bootstrap-------------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-------------Google Fonts-------------->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <!-------------CSS Style-------------->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-------------Input Section-------------->
+    <section>
+        <div class="container text-center">
+            <form class="input-group pt-5 new-input">
+                <input type="text" name="text" id="text" class="form-control new-input__text" placeholder="Insert Text" >
+                <button class="btn new-input__submit">Add</button>
+            </form>
+        </div>
+    </section>
+
+    <!-------------List of Tasks-------------->
+    <section class="tasks mt-3">
+        <div class="container">
+            <div class="card tasks__wrapper">
+                <!-------------Header for the card-------------->
+                <p class="card-header text-center tasks__wrapper-header">
+                    To-Do List
+                </p>
+                <!-------------List of tasks-------------->
+                <ul class="card-body tasks__list">
+                    <!-------------Header for tasks-------------->
+                    <li class="tasks__list-header">
+                        <div class="row">
+                            <div class="col-2">No.</div>
+                            <div class="col-6">Name</div>
+                            <div class="col-2">Done</div>
+                            <div class="col-2">Delete</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-------------JavaScript App-------------->
+    <script src="app.js"></script>
+</body>
+</html>
